@@ -1,0 +1,16 @@
+
+:root {
+
+  --fontsize-normal: 1rem;
+  --fontsize-small: .5rem;
+}
+
+body {
+  font-family: 'Verdana, Geneva, sans-serif';
+  font-size: var(--fontsize-normal);
+  background-color: rgb(246, 246, 239);
+}
+
+.main {
+  max-width: 750px;
+}
