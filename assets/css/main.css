@@ -1,16 +1,68 @@
 
 :root {
 
-  --fontsize-normal: 1rem;
-  --fontsize-small: .5rem;
+  --fontsize-normal: .9rem;
+  --fontsize-small: .7rem;
+  --fontsize-smaller: .5rem;
 }
 
 body {
-  font-family: 'Verdana, Geneva, sans-serif';
+  font-family: 'Verdana';
   font-size: var(--fontsize-normal);
-  background-color: rgb(246, 246, 239);
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.ft-small {
+  font-size: var(--fontsize-small);
+}
+
+.ft-smaller {
+  font-size: var(--fontsize-smaller);
+}
+
+.light {
+  color: #828282;
 }
 
 .main {
-  max-width: 750px;
+  background-color: rgb(246, 246, 239);
+  max-width: 1070px;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(255, 102, 0);
+  padding: .2rem;
+}
+
+.main_site-name {
+  font-weight: 600;
+}
+
+.main_links-list {
+  display: flex;
+}
+
+.main_links-list ul {
+  padding-left: 0;
+}
+
+.main_links-list li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0.75rem;
+}
+
+.main_links li:not(:last-child) {
+  border-right: 2px solid #000000;
+}
+
+.main-content_list {
+  padding-left: 1.7rem;
+}
+
+.main-content_list li {
+  padding-bottom: .4rem;
 }
